@@ -1,0 +1,36 @@
+.body {
+  font-family: "Alata", sans-serif;
+}
+
+.mylist-button {
+  border: none;
+  font-size: 1.2rem;
+}
+.display-movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 200px;
+  padding: 50px;
+}
+.mylist-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-bottom: 50px;
+  padding-bottom: 100px; */
+  width: 300px;
+  height: 250px;
+  padding: 100px;
+}
+.navbar {
+  background-color: rgba(252, 240, 240, 0.747);
+  height: 30px;
+  font-size: xx-small;
+}
+.search-button {
+  margin-left: 600px;
+}
+.website-brand {
+  margin-left: 650px;
+  font-family: "Times New Roman", Times, serif;
+}
